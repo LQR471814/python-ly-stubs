@@ -1,0 +1,6 @@
+from ly.music.items import Item
+
+class Events:
+    unfold_repeats: bool
+    def read(self, node: Item, time: int = ..., scaling: int = ...): ...
+    def traverse(self, node: Item, time: int, scaling: int): ...

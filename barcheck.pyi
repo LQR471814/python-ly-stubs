@@ -1,0 +1,13 @@
+from _typeshed import Incomplete
+
+def remove(cursor) -> None: ...
+
+class event:
+    cadenza: Incomplete
+    barcheck: bool
+    timesig: Incomplete
+    partial: Incomplete
+    def __init__(self) -> None: ...
+    def append(self, node) -> None: ...
+
+def insert(cursor, music: Incomplete | None = ...): ...
